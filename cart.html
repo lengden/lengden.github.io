@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <!-- The title is what will appear on the tab in the browser. -->
+  <title>My Shopping Cart</title>
+
+      <!-- You need to link css and any external code in the head. -->
+
+  <!-- The two links below link to Jquery which allows for easier and more efficient use of javascript and bootstrap which allows you to add themes to your webpages. -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" href="cart.css">
+
+</head>
+
+
+	  <ul>
+
+  <li><a href="login.html">Login/ Register</a></li>
+  <li><a href="cart.html">Shopping Cart</a></li>
+  <li><a href="contact.html">Contact us</a></li>
+
+</ul>
+
+
+
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+  <a href="cart.html">Special Offers</a>
+    <a href="CD.html">CD</a>
+    <a href="Vinyl.html">Vinyl</a>
+    <a href="Merch.html">Merch and clothing</a>
+	<a href="Wagwarn.html">Trending Artist of the week</a>
+	<a href="index.html">Home</a>
+
+
+  </div>
+</div>
+
+
+
+
+
+
+
+<!-- Div containing products -->
+  <div class="container">
+    <div class="row">
+      <div class="col col-sm-9">
+        <h1>Special Offers / Shopping Cart</h1>
+        <div class="row">
+          <!-- Product 1-->
+          <div class="col col-xs-12 col-md-6 col-lg-4">
+
+            <div>
+              <img src="Resources/Cart1.jpg" width="300px" height="300px">
+            </div>
+
+          <h2>A$AP ROCKY - TESTING</h2>
+          <p>Vinyl</p>
+          <p>&pound18.99</p>
+          <p><input type="submit" value="Add to cart" class="btn"/></p>
+          </div>
+
+  <!-- Product 2-->
+          <div class="col col-xs-12 col-md-6 col-lg-4">
+            <div>
+              <img src="Resources/Cart2.jpg" width="300px" height="300px">
+            </div>
+
+          <h2>The Cure - Three Imaginary Boys</h2>
+          <p>Vinyl</p>
+          <p>&pound16.99</p>
+          <p><input type="submit" value="Add to cart" class="btn"/></p>
+          </div>
+</div>
+
+
+
+
+
+
+
+
+  <!-- This section adds the shipping address form when you confirm order. -->
+      <div id="calculator">
+      </div>
+      <form>
+            <div id='shipping-form'>
+                <div>
+                    <label>Name</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div>
+                    <label>Address Line 1</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div>
+                    <label>Address Line 2</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div>
+                    <label>City</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div>
+                    <label>County</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div>
+                    <label>Post Code</label>
+                    <input type="text" class="form-control">
+                </div>
+            <div>
+                <input type="button" value="Submit" id="finish" />
+            </div>
+        </form>
+
+      </div>
+
+
+
+
+  <!--Link to javascript for cart-->
+<script src="cart.js"></script>
+</body>
+</html>

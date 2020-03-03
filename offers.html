@@ -1,0 +1,154 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ff0066;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: red;
+}
+</style>
+</head>
+<body>
+
+<ul>
+
+  <li><a href="login.html">Login/ Register</a></li>
+  <li><a href="cart.html">Shopping Cart</a></li>
+
+</ul>
+
+</body>
+</html>
+
+<body>
+
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+  <a href="offers.html">Special Offers</a>
+    <a href="CD.html">CD</a>
+    <a href="Vinyl.html">Vinyl</a>
+    <a href="Merch.html">Merch and clothing</a>
+	<a href="Wagwarn.html">Trending Artist of the week</a>
+	<a href="index.html">Home</a>
+
+
+  </div>
+</div>
+<html>
+
+<div class="topnav">
+  <input type="text" placeholder="Search..">
+</div>
+
+<h1 style="text-align:center;">Marina</h1>
+<p style="text-align:center;">Special Offers</p>
+
+<html>
+  <head>
+    <title>Flexbox Product Grid Demo</title>
+    <style>
+      /* Flex container */
+      #p-flex {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      /* Product items */
+      div.p-flex {
+        width: 25%;
+      }
+      div.p-flex-in {
+        box-sizing: border-box;
+        margin: 5px;
+        padding: 10px;
+        border: 1px solid #e7fcde;
+        background: #80b3ff;
+      }
+      img.p-img {
+        width: 100%;
+        height: auto;
+      }
+      div.p-name {
+        font-weight: bold;
+        font-size: 1.1em;
+      }
+      div.p-price {
+        color: #f44242;
+      }
+      div.p-desc {
+        color: #ffffff;
+        font-size: 0.9em;
+      }
+      button.p-add {
+        background: #f46b41;
+        color: #fff;
+        border: none;
+        width: 100%;
+        padding: 10px;
+        margin: 10px 5px 5px 5px;
+        font-size: 1.1em;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      /* Responsive */
+      @media only screen and (max-width: 1024px) {
+        div.p-flex { width: 33%; }
+      }
+      @media only screen and (max-width: 600px) {
+        div.p-flex { width: 50%; }
+      }
+      /* [DOES NOT MATTER] */
+      html, body {
+        padding: 0;
+        margin: 0;
+        font-family: arial, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="p-flex">
+
+      <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img"src="Resources/BasketIB.jpg"/>
+        <div class="p-name">Ian Brown - Unfinished Monkey Business Vinyl</a></div>
+        <div class="p-price">£12.99</div>
+        <div class="p-desc">Release date: 2 February 1998</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>
+      <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/SC 1.png"/>
+        <div class="p-name">Kendrick Lamar - DAMN CD</div>
+        <div class="p-price">£5.99</div>
+        <div class="p-desc">Release date: 14 April 2017</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>

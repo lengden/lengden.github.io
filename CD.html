@@ -1,0 +1,201 @@
+﻿<html>
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ff0066;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: red;
+}
+</style>
+</head>
+<body>
+
+<ul>
+
+  <li><a href="login.html">Login/ Register</a></li>
+  <li><a href="cart.html">Shopping Cart</a></li>
+  <li><a href="contact.html">Contact us</a></li>
+
+</ul>
+
+</body>
+</html>
+
+<body>
+
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+  <a href="cart.html">Special Offers</a>
+    <a href="CD.html">CD</a>
+    <a href="Vinyl.html">Vinyl</a>
+    <a href="Merch.html">Merch and clothing</a>
+	<a href="Wagwarn.html">Trending Artist of the week</a>
+	<a href="index.html">Home</a>
+
+
+  </div>
+</div>
+
+<h1 style="text-align:center;">Marina</h1>
+<p style="text-align:center;">CD's</p>
+
+
+<strong><body>Our recommendations:<body></strong>
+
+<!-- The design and code for the grid and the products which are included on this page of the website. -->
+
+<html>
+  <head>
+    <title>Flexbox Product Grid Demo</title>
+    <style>
+      /* Flex container */
+      #p-flex {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      /* Product items */
+      div.p-flex {
+        width: 25%;
+      }
+      div.p-flex-in {
+        box-sizing: border-box;
+        margin: 5px;
+        padding: 10px;
+        border: 1px solid #e7fcde;
+        background: #80b3ff;
+      }
+      img.p-img {
+        width: 100%;
+        height: auto;
+      }
+      div.p-name {
+        font-weight: bold;
+        font-size: 1.1em;
+      }
+      div.p-price {
+        color: #f44242;
+      }
+      div.p-desc {
+        color: #ffffff;
+        font-size: 0.9em;
+      }
+      button.p-add {
+        background: #f46b41;
+        color: #fff;
+        border: none;
+        width: 100%;
+        padding: 10px;
+        margin: 10px 5px 5px 5px;
+        font-size: 1.1em;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      /* Responsive */
+      @media only screen and (max-width: 1024px) {
+        div.p-flex { width: 33%; }
+      }
+      @media only screen and (max-width: 600px) {
+        div.p-flex { width: 50%; }
+      }
+      /* [DOES NOT MATTER] */
+      html, body {
+        padding: 0;
+        margin: 0;
+        font-family: arial, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="p-flex">
+
+      <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img"src="Resources/TC 1.jpg"/>
+        <div class="p-name">Tyler, the Creator - Goblin</a></div>
+        <div class="p-price">£8.99</div>
+        <div class="p-desc">Release date: 10 May 2011</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>
+      <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/TC 2.png"/>
+        <div class="p-name">Tyler, the Creator - Bastard</div>
+        <div class="p-price">£8.99</div>
+        <div class="p-desc">Release date: 25 December 2009</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>
+      <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/X 1.png"/>
+        <div class="p-name">XXXTentacion - Revenge</div>
+        <div class="p-price">£7.99</div>
+        <div class="p-desc">Release Date: May 17 2017</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>
+      <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/ES 1.jpg"/>
+        <div class="p-name">Earl Sweatshirt - Some Rap Songs</div>
+        <div class="p-price">£6.99</div>
+        <div class="p-desc">Release Date: 30 November 2018</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>
+      <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img"src="Resources/Blur CD.jpg"/>
+        <div class="p-name">Blur - Leisure</a></div>
+        <div class="p-price">£9.99</div>
+        <div class="p-desc">Release date: 26 August 1991</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>
+      <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/Beatles CD.jpg"/>
+        <div class="p-name">The Beatles - Revolver</div>
+        <div class="p-price">£8.99</div>
+        <div class="p-desc">Release date: 5 August 1966</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>
+      <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/Tame Impala CD.png"/>
+        <div class="p-name">Tame Impala - Lonerism</div>
+        <div class="p-price">£7.99</div>
+        <div class="p-desc">Release Date: 5 October 2012</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>
+      <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/Kevin Abstract CD.jpg"/>
+        <div class="p-name">Kevin Abstract - American Boyfriend</div>
+        <div class="p-price">£6.99</div>
+        <div class="p-desc">Release Date: 18 November 2016</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>
+
+
+      </div></div>
+	    </div>

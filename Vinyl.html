@@ -1,0 +1,197 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ff0066;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: red;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  
+  <li><a href="login.html">Login/ Register</a></li>
+  <li><a href="cart.html">Shopping Cart</a></li>
+  <li><a href="contact.html">Contact us</a></li>
+  
+</ul>
+
+</body>
+</html>
+
+<body>
+
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+  <a href="cart.html">Special Offers</a>
+    <a href="CD.html">CD</a>
+    <a href="Vinyl.html">Vinyl</a>
+    <a href="Merch.html">Merch and clothing</a>
+	<a href="Wagwarn.html">Trending Artist of the week</a>
+	<a href="index.html">Home</a>
+	
+	
+  </div>
+</div>
+<html>
+
+<h1 style="text-align:center;">Marina</h1>
+<p style="text-align:center;">Vinyl's</p>
+
+<strong><body>Our recommendations:<body></strong>
+
+<!-- The design and code for the grid and the products which are included on this page of the website. -->
+
+<html>
+  <head>
+    <title>Flexbox Product Grid Demo</title>
+    <style>
+      /* Flex container */
+      #p-flex {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      /* Product items */
+      div.p-flex {
+        width: 25%;
+      }
+      div.p-flex-in {
+        box-sizing: border-box;
+        margin: 5px;
+        padding: 10px;
+        border: 1px solid #e7fcde;
+        background: #80b3ff;
+      }
+      img.p-img {
+        width: 100%;
+        height: auto;
+      }
+      div.p-name {
+        font-weight: bold;
+        font-size: 1.1em;
+      }
+      div.p-price {
+        color: #f44242;
+      }
+      div.p-desc {
+        color: #ffffff;
+        font-size: 0.9em;
+      }
+      button.p-add {
+        background: #f46b41;
+        color: #fff;
+        border: none;
+        width: 100%;
+        padding: 10px;
+        margin: 10px 5px 5px 5px;
+        font-size: 1.1em;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      /* Responsive */
+      @media only screen and (max-width: 1024px) {
+        div.p-flex { width: 33%; }
+      }
+      @media only screen and (max-width: 600px) {
+        div.p-flex { width: 50%; }
+      }
+      /* [DOES NOT MATTER] */
+      html, body {
+        padding: 0;
+        margin: 0;
+        font-family: arial, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="p-flex">
+	
+      <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img"src="Resources/TS 1.jpg"/>
+        <div class="p-name">The Smiths - Louder than Bombs</a></div>
+        <div class="p-price">£19.99</div>
+        <div class="p-desc">Release date: 30 March 1987</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>
+      <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/BH 1.jpg"/>
+        <div class="p-name">BROCKHAMPTON - GINGER</div>
+        <div class="p-price">£21.99</div>
+        <div class="p-desc">Release date: 23 August 2019</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>
+      <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/LUV 1.jpg"/>
+        <div class="p-name">Lil Uzi Vert - LUV Is Rage 2</div>
+        <div class="p-price">£25.99</div>
+        <div class="p-desc">Release Date: 25 August 2017</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>
+      <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/HC 2.jpg"/>
+        <div class="p-name">Hippo Campus - Demos II</div>
+        <div class="p-price">£20.99</div>
+        <div class="p-desc">Release Date: 10 July 2019</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>
+	  <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/JL V1.jpg"/>
+        <div class="p-name">John Lennon - Mind Games</div>
+        <div class="p-price">£23.99</div>
+        <div class="p-desc">Release Date: 29 October 1973</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>
+	  <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/JL V2.jpg"/>
+        <div class="p-name">John Lennon - Walls and Bridges</div>
+        <div class="p-price">£28.99</div>
+        <div class="p-desc">Release Date: 26 September 1974</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>
+	  <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/JL V3.jpg"/>
+        <div class="p-name">John Lennon - Imagine</div>
+        <div class="p-price">£22.99</div>
+        <div class="p-desc">Release Date: 9 September 1971</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>
+	  <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/JL V4.jpg"/>
+        <div class="p-name">John Lennon - John Lennon/Plastic Ono Band</div>
+        <div class="p-price">£27.99</div>
+        <div class="p-desc">Release Date: 11 December 1970</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>

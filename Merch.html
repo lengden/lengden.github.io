@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ff0066;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: red;
+}
+</style>
+</head>
+<body>
+
+<ul>
+
+  <li><a href="login.html">Login/ Register</a></li>
+  <li><a href="cart.html">Shopping Cart</a></li>
+  <li><a href="contact.html">Contact us</a></li>
+
+</ul>
+
+</body>
+</html>
+
+<body>
+
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+  <a href="cart.html">Special Offers</a>
+    <a href="CD.html">CD</a>
+    <a href="Vinyl.html">Vinyl</a>
+    <a href="Merch.html">Merch and clothing</a>
+	<a href="Wagwarn.html">Trending Artist of the week</a>
+	<a href="index.html">Home</a>
+
+
+  </div>
+</div>
+<html>
+
+
+<!-- The design and code for the grid and the products which are included on this page of the website. -->
+
+  <head>
+    <title>Flexbox Product Grid Demo</title>
+    <style>
+      /* Flex container */
+      #p-flex {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      /* Product items */
+      div.p-flex {
+        width: 25%;
+      }
+      div.p-flex-in {
+        box-sizing: border-box;
+        margin: 5px;
+        padding: 10px;
+        border: 1px solid #e7fcde;
+        background: #d98cb3;
+      }
+      img.p-img {
+        width: 100%;
+        height: auto;
+      }
+      div.p-name {
+	  color: #ffffff;
+        font-weight: bold;
+        font-size: 1.1em;
+      }
+      div.p-price {
+        color: #99ccff;
+      }
+      div.p-desc {
+        color: #888;
+        font-size: 0.9em;
+      }
+      button.p-add {
+        background: #f46b41;
+        color: #fff;
+        border: none;
+        width: 100%;
+        padding: 10px;
+        margin: 10px 5px 5px 5px;
+        font-size: 1.1em;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      /* Responsive */
+      @media only screen and (max-width: 1024px) {
+        div.p-flex { width: 33%; }
+      }
+      @media only screen and (max-width: 600px) {
+        div.p-flex { width: 50%; }
+      }
+      /* [DOES NOT MATTER] */
+      html, body {
+        padding: 0;
+        margin: 0;
+        font-family: arial, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="p-flex">
+	<h1 style="text-align:center;">Marina</h1>
+	  <p style="text-align:center;">Merch and clothing</p>
+      <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/MC 1.jpg"/>
+        <div class="p-name">Golf Wang - Save the Bees hoodie</div>
+        <div class="p-price">£75</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>
+      <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/MC 2.jpg"/>
+        <div class="p-name">Golf Wang - Flame shorts</div>
+        <div class="p-price">£180</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>
+      <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/MC 3.jpg"/>
+        <div class="p-name">Golf Le Fleur x Converse</div>
+        <div class="p-price">£96</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>
+      <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/MC 4.jpg"/>
+        <div class="p-name">Golf Wang - Sweater Vest</div>
+        <div class="p-price">£60</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>
+	        <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/LP M1.jpg"/>
+        <div class="p-name">Lil Peep - COWYS 2 Hoodie</div>
+        <div class="p-price">£65</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>
+      <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/ST M2.jpg"/>
+        <div class="p-name">Slowthai - Fuck Boris T shirt</div>
+        <div class="p-price">£30</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>
+      <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/BH M3.jpg"/>
+        <div class="p-name">BROCKHAMPTON - Iredesence Hoodie</div>
+        <div class="p-price">£40</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>
+      <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/BH M2.jpg"/>
+        <div class="p-name">BROCKHAMPTON - Iridesence Hoodie</div>
+        <div class="p-price">£65</div>
+        <button class="p-add">Add to Cart</button>
+    </div>
+
+
+
+</body>
+</html>
