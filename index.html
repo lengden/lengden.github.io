@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ff0066;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: red;
+}
+</style>
+</head>
+<body>
+
+<ul>
+
+<!-- The page selection for the top options of the page -->
+
+  <li><a href="login.html">Login/ Register</a></li>
+  <li><a href="cart.html">Shopping Cart</a></li>
+  <li><a href="contact.html">Contact us</a></li>
+
+</ul>
+
+</body>
+</html>
+
+<!-- The code for the dropdown. -->
+
+<div class="dropdown">
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+  <a href="cart.html">Special Offers</a>
+    <a href="CD.html">CD</a>
+    <a href="Vinyl.html">Vinyl</a>
+    <a href="Merch.html">Merch and clothing</a>
+	<a href="Wagwarn.html">Trending Artist of the week</a>
+	<a href="index.html">Home</a>
+  </div>
+</div>
+<html>
+
+
+<body>
+
+<!-- The titles for the page. -->
+
+<h1 style="text-align:center;">Marina</h1>
+<p style="text-align:center;">Home</p>
+
+</body>
+</html>
+
+<figure>
+    <strong><body>Listen to the song of the week:<body></strong>
+	<html>
+<body text="#ff4dd2">
+</body>
+
+<!-- The code that plays the song I chose -->
+
+</html>
+    <audio
+        controls
+        src="Audio/King Krule - (Don't Let The Dragon) Draag On.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+</figure>
+
+<!-- The design for the grid that has the product in. -->
+
+<html>
+  <head>
+    <title>Flexbox Product Grid Demo</title>
+    <style>
+      /* Flex container */
+      #p-flex {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      /* Product items */
+      div.p-flex {
+        width: 25%;
+      }
+      div.p-flex-in {
+        box-sizing: border-box;
+        margin: 5px;
+        padding: 10px;
+        border: 1px solid #e7fcde;
+        background: #80b3ff;
+      }
+      img.p-img {
+        width: 100%;
+        height: auto;
+      }
+      div.p-name {
+        font-weight: bold;
+        font-size: 1.1em;
+      }
+      div.p-price {
+        color: #f44242;
+      }
+      div.p-desc {
+        color: #ffffff;
+        font-size: 0.9em;
+      }
+      button.p-add {
+        background: #f46b41;
+        color: #fff;
+        border: none;
+        width: 100%;
+        padding: 10px;
+        margin: 10px 5px 5px 5px;
+        font-size: 1.1em;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      /* Responsive */
+      @media only screen and (max-width: 1024px) {
+        div.p-flex { width: 33%; }
+      }
+      @media only screen and (max-width: 600px) {
+        div.p-flex { width: 50%; }
+      }
+      /* [DOES NOT MATTER] */
+      html, body {
+        padding: 0;
+        margin: 0;
+        font-family: arial, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+  
+  <!-- Navigation for the website and also the products on the website. -->
+  
+    <div id="p-flex">
+	<div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/CD HL.jpg"/>
+        <a href="CD.html">Go to CD's</a>
+      </div></div>
+      <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/V HL.jpg"/>
+        <a href="Vinyl.html">Go to Vinyl's</a>
+      </div></div>
+      <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/MC HL.jpg"/>
+        <a href="Merch.html">Go to merch and clothing</a>
+      </div></div>
+      <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/TA HL.jpg"/>
+        <a href="Wagwarn.html">Go to trending Artist of the week</a>
+      </div></div>
+	  <p style="text-align:center;">See whats hot today</p>
+      <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img"src="Resources/Home Wolf.jpg"/>
+        <div class="p-name">Tyler, the Creator - Wolf</a></div>
+        <div class="p-price">CD-�8.99 Vinyl-�18.99</div>
+        <div class="p-desc">Release date: 2nd April 2013</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>
+      <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/KA Home.jpg"/>
+        <div class="p-name">Kevin Abstract - Arizona Baby</div>
+        <div class="p-price">CD-�9.99 Vinyl-�20.00</div>
+        <div class="p-desc">Release date: 25 April 2019</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>
+      <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/HC Home.jpg"/>
+        <div class="p-name">Hippo Campus - landmark</div>
+        <div class="p-price">CD-�11.99 Vinyl-�24.99</div>
+        <div class="p-desc">Release date: 24 February 2017</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>
+      <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/Igor Home.jpg"/>
+        <div class="p-name">Tyler, the Creator - Igor</div>
+        <div class="p-price">CD-�10.99 Vinyl-�21.99</div>
+        <div class="p-desc">17 May 2019</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>
+      <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/Joji Home.jpg"/>
+        <div class="p-name">Joji - Ballads 1</div>
+        <div class="p-price">CD-�12.99 Vinyl-�30.99</div>
+        <div class="p-desc">26 October 2018</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>
+      <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/Pixies Home.jpg"/>
+        <div class="p-name">Pixies - Trompe Le Monde</div>
+        <div class="p-price">CD-�8.99 Vinyl-�25.99</div>
+        <div class="p-desc">23 September 1991</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>
+      <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/BH Home.png"/>
+        <div class="p-name">Brockhampton - Saturation</div>
+        <div class="p-price">CD-�8.99 Vinyl-�27.99</div>
+        <div class="p-desc">9 June 2017</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>
+      <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/Peep Home.jpg"/>
+        <div class="p-name">Lil Peep - Hellboy</div>
+        <div class="p-price">CD-�12.99 Vinyl-�24.99</div>
+        <div class="p-desc">25 September 2016</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>
+	  <p style="text-align:center;">Bargains of the day</p>
+      <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/DC1.jpg"/>
+        <div class="p-name">30% Discount Only Today!</div>
+        <div class="p-price">CD-�9.10 Vinyl-�17.50</div>
+        <div class="p-desc">Tyler, the Creator - Goblin</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>
+      <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/DC2.png"/>
+        <div class="p-name">50% Discount Only Today!</div>
+        <div class="p-price">CD-�6.50 Vinyl-�12.50</div>
+        <div class="p-desc">Tame Impala - Currents</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>
+      <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/DC3.jpg"/>
+        <div class="p-name">25% Discount Only Today!</div>
+        <div class="p-price">CD-�9.75 Vinyl-�18.75</div>
+        <div class="p-desc">Teen Suicide - DC Snuff Film / Waste yrself</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>
+      <div class="p-flex"><div class="p-flex-in">
+        <img class="p-img" src="Resources/DC3.png"/>
+        <div class="p-name">50% Discount Only Today!</div>
+        <div class="p-price">CD-�6.50 Vinyl-�12.50</div>
+        <div class="p-desc">Slowthai - Nothing Great About Britain</div>
+        <button class="p-add">Add to Cart</button>
+      </div></div>
+    </div>
+
+
+
+</body>
+</html>
+
+</body>
+</html>
+
